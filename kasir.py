@@ -25,7 +25,7 @@ class window1:
         self.master.geometry('1350x900+0+0')
 
         # Background
-        self.bg_icons = ImageTk.PhotoImage(file = 'C:\\Users\\Ryuen\\Desktop\\kuliah program\\Kasir\\Backend\\test.jpg') # Ganti dengan foto yang ada di browser kalian, foto dan file ini harus dalam folder yg sama
+        self.bg_icons = ImageTk.PhotoImage(file = 'test.jpg') # Ganti dengan foto yang ada di browser kalian, foto dan file ini harus dalam folder yg sama
 
         # Label
         self.bg_lbl = Label(self.master, image=self.bg_icons)
@@ -268,7 +268,7 @@ class window2:
         self.master1.geometry('1360x750+0+0')
 
         # Background
-        self.bg_icons1 = ImageTk.PhotoImage(file='C:\\Users\\Ryuen\\Desktop\\kuliah program\\Kasir\\Backend\\test.jpg')
+        self.bg_icons1 = ImageTk.PhotoImage(file='test.jpg') # ubah pake bakcground kamu
 
         # Label
         self.bg_lbl = Label(self.master1, image=self.bg_icons1)
